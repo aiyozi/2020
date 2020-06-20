@@ -15,4 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 #wwwww
+//测试
 Route::get("info","Test\TestController@info");
+//商品
+Route::get("detail","Goods\GoodsController@detail");
